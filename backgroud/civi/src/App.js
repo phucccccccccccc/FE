@@ -5,6 +5,7 @@ import Register from "./Register";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
+import Main1 from "./Main/Main1";
 import GioiThieu from "./GioiThieu/gioithieu";
 import KhoaHoc from "./KhoaHoc/KhoaHoc";  // Fixed import name
 import Blog from "./Blog/Blog";
@@ -43,6 +44,7 @@ function App() {
           element={
             <PageWithLayout>
               <Main />
+              <Main1 />              
             </PageWithLayout>
           }
         />
